@@ -1,0 +1,32 @@
+{
+    "_comment": "DayZ Enfusion Engine — Offsets + Patterns AOB",
+    "_version": "1.26+",
+    "_engine": "Enfusion (Bohemia Interactive)",
+
+    "_note": "GWorld/GNames = N/A pour Enfusion. On utilise WorldGameObject + EntityList.",
+
+    "pattern_WorldGameObject" : "4C 89 A7 ?? ?? ?? ?? 48 8B 8F ?? ?? ?? ??",
+    "pattern_EntityList"      : "48 8B 0D ?? ?? ?? ?? 48 85 C9 74 ?? 48 8B 01",
+    "pattern_Camera"          : "48 8B 0D ?? ?? ?? ?? 48 85 C9 74 ?? 4C 8B 41",
+    "pattern_LocalPlayer"     : "48 8B 05 ?? ?? ?? ?? 48 85 C0 74 ?? 48 8B 40 ??",
+
+    "WorldGameObject_rip_offset": 3,
+    "WorldGameObject_rip_size"  : 7,
+    "EntityList_rip_offset"     : 3,
+    "EntityList_rip_size"       : 7,
+    "Camera_rip_offset"         : 3,
+    "Camera_rip_size"           : 7,
+    "LocalPlayer_rip_offset"    : 3,
+    "LocalPlayer_rip_size"      : 7,
+
+    "Entity_Position"           : 320,
+    "Entity_Health"             : 528,
+    "Entity_Name"               : 88,
+    "Entity_Next"               : 16,
+    "Entity_IsPlayer"           : 264,
+
+    "Camera_ViewMatrix"         : 208,
+
+    "EntityList_Count"          : 8,
+    "EntityList_Data"           : 16
+}
